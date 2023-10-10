@@ -1,6 +1,4 @@
 import os, sys
-
-os.chdir(f'./')
 import json
 from scripts.wav2lip_uhq_extend_paths import wav2lip_uhq_sys_extend
 import gradio as gr
