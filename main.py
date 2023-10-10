@@ -1,4 +1,4 @@
-from scripts.ui import generate
+from scripts.main import generate
 
 generate(
     video='content/drive/MyDrive/wav2lip/sources/book.mp4',
