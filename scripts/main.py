@@ -1,4 +1,6 @@
 import os, sys
+
+os.chdir(f'./')
 import json
 from scripts.wav2lip_uhq_extend_paths import wav2lip_uhq_sys_extend
 import gradio as gr
@@ -7,7 +9,6 @@ from scripts.wav2lip.wav2lip_uhq import Wav2LipUHQ
 from modules.shared import state
 from scripts.bark.tts import TTS
 from scripts.faceswap.swap import FaceSwap
-
 
 def generate(video, face_swap_img, face_index, audio, checkpoint, face_restore_model, no_smooth, only_mouth,
              resize_factor,
