@@ -8,7 +8,6 @@ from modules.shared import state
 from scripts.bark.tts import TTS
 from scripts.faceswap.swap import FaceSwap
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname( __file__ ), '../..')))
 
 def generate(video, face_swap_img, face_index, audio, checkpoint, face_restore_model, no_smooth, only_mouth,
              resize_factor,
