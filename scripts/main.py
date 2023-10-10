@@ -1,7 +1,6 @@
 import os, sys
 import json
 from wav2lip_uhq_extend_paths import wav2lip_uhq_sys_extend
-import gradio as gr
 from wav2lip.w2l import W2l
 from wav2lip.wav2lip_uhq import Wav2LipUHQ
 from modules.shared import state
